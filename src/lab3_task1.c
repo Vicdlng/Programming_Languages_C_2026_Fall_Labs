@@ -1,7 +1,7 @@
 /*
  * Lab 3, Task 1
  * Name: Victoria Delong
- * Student ID: <your student ID>
+ * Student ID: 260AMB053
  *
  * Implement array algorithms:
  *   - find minimum value
