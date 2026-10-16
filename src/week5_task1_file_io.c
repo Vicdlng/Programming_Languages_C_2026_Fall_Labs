@@ -45,16 +45,16 @@ fclose(fp);
     // TODO: 5. Open the file again for reading (mode "r") and check for NULL again
 fp = fopen(filename, "r");
 if (fp == NULL) {
-        perror(filename);
-        return EXIT_FAILURE;
+    perror(filename);
+    return EXIT_FAILURE;
 }
     
     // TODO: 6. Print "Reading contents:" and use fgets() in a loop to print each line
     //          (BONUS: count the lines in line_count)
 printf("Reading contents:\n");
 while (fgets(line, LINE_LEN, fp) != NULL) {
-        printf("%s", line);
-        line_count++;
+    printf("%s", line);
+    line_count++;
 }
 
     // TODO: 7. Close the file
